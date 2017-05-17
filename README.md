@@ -1,8 +1,8 @@
 # Bounti
 
-![AppMockup](https://github.com/currychern/bounti/tree/master/public/assets)
+![AppMockup](https://github.com/currychern/bounti/tree/master/public/assets/app_mockup.png)
 
-> Bounti is an app that allows neighbors to share surplus food so it won't go to waste. We hope to connect community to help end food waste.
+> Bounti is an app that allows neighbors to share surplus food so it won't go to waste. We hope to create a community to help end food waste.
 
 ## Contents
 - [The Problem](#the-problem)
@@ -37,7 +37,7 @@ A: I heard about the event during an Open Austin Hack Night.
 
 > Q: Short description of the project (140 characters)
 
-A: Bounti is an app that allows neighbors to share surplus food so it won't go to waste. We hope to connect community to help end food waste.
+A: Bounti is an app that allows neighbors to share surplus food so it won't go to waste. We hope to create a community to help end food waste.
 
 > Q: What is your idea? Who will it help?
 
@@ -45,11 +45,11 @@ A: We are working on an app that allows neighbors to share surplus food so it wo
 
 > Q: What is the current state of your idea?
 
-A: We have finished scoping out the basic premise of the app, settled on design, engineering, and project management guidelines, and have started making mockups. Here's a link to a mockup we made: (https://github.com/currychern/bounti/tree/master/public/assets). We will begin designing a prototype soon.
+A: We have finished scoping out the basic premise of the app, settled on design, engineering, and project management guidelines, and have started making mockups. Here's a link to a mockup we made: (https://github.com/currychern/bounti/tree/master/public/assets/app_mockup.png). We will begin designing a prototype soon.
 
 > Q: Do you have text, articles, data, code, etc.?
 
-A: Our goal is to create a mobile app. We have a github repository (https://github.com/currychern/bounti) and will update it with code and other assets leading up to the hackathon. We have a brief synopsis of the problem and links to articles highlighting the problem with food waste here (https://github.com/currychern/bounti#the-problem). Did you know: about 40% of food produced in the US ends up being wasted.
+A: Our goal is to create a mobile app. We have a github repository (https://github.com/currychern/bounti) and will update it with code and other assets leading up to the hackathon. We have a brief synopsis of the problem and links to articles highlighting the problem with food waste here (https://github.com/currychern/bounti#the-problem). Did you know: with the food we waste, we could feed a healthy diet to two-thirds of Americans.
 
 > Q: What skills do you think your project might need?
 
