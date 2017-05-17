@@ -1,6 +1,6 @@
 # Bounti
 
-![AppMockup](/public/assets/app_mockup.png)
+![AppMockup](https://github.com/currychern/bounti/tree/master/public/assets)
 
 > Bounti is an app that allows neighbors to share surplus food so it won't go to waste. We hope to connect community to help end food waste.
 
@@ -20,7 +20,7 @@ The [2016 Food Sustainability Index](http://foodsustainability.eiu.com/us/) rank
 
 This is happening while more than [13% of Americans live in food insecure housefolds](http://www.feedingamerica.org/hunger-in-america/impact-of-hunger/hunger-and-poverty/hunger-and-poverty-fact-sheet.html). Here in Texas, the rate of food insecurity is even higher - [15.4% of Texas households](https://www.feedingtexas.org/learn/food-insecurity/) experience food insecurity. This is why wasted food is such a big problem. People are still hungry.
 
-It doesn't need to be this way. We aren't just wasting a lot of food. We are wasting a lot of _good_ food. The Johns Hopkins Bloomberg School of Public Health's Center for a Livable Future released a study that looks at the nutritional value of the food we waste. It turns out the food we waste could feed a [healthy diet to two-thirds](http://newfoodeconomy.com/food-waste-adds-healthy-diet-two-thirds-american-population/) of Americans. 
+It doesn't need to be this way. We aren't just wasting a lot of food. We are wasting a lot of _good_ food. The Johns Hopkins Bloomberg School of Public Health's Center for a Livable Future released a study that looks at the nutritional value of the food we waste. It turns out the food we waste could feed a [healthy diet to two-thirds](http://newfoodeconomy.com/food-waste-adds-healthy-diet-two-thirds-american-population/) of Americans.
 
 It's for this reason we are starting this project to connect neighbors and allow them to share surplus food. We want our community to be more informed about wasted food and to directly benefit from reducing needless waste. We also hope to partner with local food rescue programs, homeless shelters, food kitchens, and food banks to support access to good food for the food insecure in our community. If you are interested in being involved, please [contact](#contact) us.
 
@@ -45,11 +45,11 @@ A: We are working on an app that allows neighbors to share surplus food so it wo
 
 > Q: What is the current state of your idea?
 
-A: We have finished scoping out the basic premise of the app, settled on design, engineering, and project management guidelines, and have started making mockups. Here's a link to a mockup we made: (). We will begin designing a prototype soon.
+A: We have finished scoping out the basic premise of the app, settled on design, engineering, and project management guidelines, and have started making mockups. Here's a link to a mockup we made: (https://github.com/currychern/bounti/tree/master/public/assets). We will begin designing a prototype soon.
 
 > Q: Do you have text, articles, data, code, etc.?
 
-A: Our goal is to create a mobile app. We have a github repository (https://github.com/currychern/bounti) and will update it with code and other assets leading up to the hackathon. We have a brief synopsis of the problem and links to articles highlighting the problem with food waste here (). Did you know: about 40% of food produced in the US ends up being wasted.
+A: Our goal is to create a mobile app. We have a github repository (https://github.com/currychern/bounti) and will update it with code and other assets leading up to the hackathon. We have a brief synopsis of the problem and links to articles highlighting the problem with food waste here (https://github.com/currychern/bounti#the-problem). Did you know: about 40% of food produced in the US ends up being wasted.
 
 > Q: What skills do you think your project might need?
 
