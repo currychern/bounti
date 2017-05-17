@@ -2,7 +2,7 @@
 
 ![AppMockup](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/app_mockup.png)
 
-> Bounti is an app that allows neighbors to share surplus food so it won't go to waste. We hope to create a community to help end food waste.
+> Bounti is an app that allows neighbors to share surplus food so it won't go to waste. We hope to foster community and help end food waste.
 
 ## Contents
 - [The Problem](#the-problem)
@@ -39,11 +39,11 @@ A: I heard about the event during an Open Austin Hack Night.
 
 > Q: Short description of the project (140 characters)
 
-A: Bounti is an app that allows neighbors to share surplus food so it won't go to waste. We hope to create a community to help end food waste.
+A: Bounti is an app that allows neighbors to share surplus food so it won't go to waste. We hope to foster community and help end food waste.
 
 > Q: What is your idea? Who will it help?
 
-A: We are working on an app that allows neighbors to share surplus food so it won't go to waste. We're making this app open to everyone in the Austin community. We want to support access to good food for the food insecure and work with local food rescue programs, homeless shelters, food kitchens, and food banks to accomplish this goal. We also want to connect our users with local farmers, grocers, and restaurants that implement sustainable practices. Reducing wasted food will lessen the amount of waste that ends up in city landfills and associated greenhouse gas emissions. We hope that the city and all its residents will benefit from our project on some level.
+A: We are working on an app that allows neighbors to share surplus food so it won't go to waste. A user can list food items they are offering and other users can claim them. All coordination and communication can be done in app. We also want to make the app educational and give users weekly tips on ways they can reduce food waste. We'll want to collect data so we can measure the impact we're having. We're making this app open to everyone in the Austin community. We want to support access to good food for the food insecure and work with local food rescue programs, homeless shelters, food kitchens, and food banks to accomplish this goal. We also want to connect our users with local farmers, grocers, and restaurants that implement sustainable practices. Reducing wasted food will lessen the amount of waste that ends up in city landfills and associated greenhouse gas emissions. We hope that the city and all its residents will benefit from our project on some level.
 
 > Q: What is the current state of your idea?
 
