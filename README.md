@@ -1,6 +1,6 @@
 # Bounti
 
-![AppMockup](https://github.com/currychern/bounti/tree/master/public/assets/app_mockup.png)
+![AppMockup](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/app_mockup.png)
 
 > Bounti is an app that allows neighbors to share surplus food so it won't go to waste. We hope to create a community to help end food waste.
 
@@ -11,6 +11,8 @@
   - [ATX Hack for Change](#atx-hack-for-change)
 
 ## The Problem
+
+[![Vox - Food Waste](http://img.youtube.com/vi/6RlxySFrkIM/0.jpg)](https://www.youtube.com/watch?v=6RlxySFrkIM)
 
 Americans waste an unbelievable amount of food. According to a 2016 [_Guardian_ report](https://www.theguardian.com/environment/2016/jul/13/us-food-waste-ugly-fruit-vegetables-perfect), roughly 50 percent of all produce in the United States is thrown away. Produce alone accounts for 60 million tons (or $160 billion) worth of wasted food.
 
@@ -45,7 +47,7 @@ A: We are working on an app that allows neighbors to share surplus food so it wo
 
 > Q: What is the current state of your idea?
 
-A: We have finished scoping out the basic premise of the app, settled on design, engineering, and project management guidelines, and have started making mockups. Here's a link to a mockup we made: (https://github.com/currychern/bounti/tree/master/public/assets/app_mockup.png). We will begin designing a prototype soon.
+A: We have finished scoping out the basic premise of the app, settled on design, engineering, and project management guidelines, and have started making mockups. Here's a link to a mockup we made: (https://raw.githubusercontent.com/currychern/bounti/master/public/assets/app_mockup.png). We will begin designing a prototype soon.
 
 > Q: Do you have text, articles, data, code, etc.?
 
