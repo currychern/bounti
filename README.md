@@ -20,7 +20,7 @@ A lot of resources go into creating food: water, land, labor, time. For it to en
 
 The [2016 Food Sustainability Index](http://foodsustainability.eiu.com/us/) ranked the US third-to-last when it came to food waste (23rd out of 25) with (30-40%) of all food produced in the country going to waste - more than 20 pounds per person per month! This lost food costs about $1,600 a year for a family of four.
 
-This is happening while more than [13% of Americans live in food insecure housefolds](http://www.feedingamerica.org/hunger-in-america/impact-of-hunger/hunger-and-poverty/hunger-and-poverty-fact-sheet.html). Here in Texas, the rate of food insecurity is even higher - [15.4% of Texas households](https://www.feedingtexas.org/learn/food-insecurity/) experience food insecurity. This is why wasted food is such a big problem. People are still hungry.
+This is happening while more than [13% of Americans live in food insecure households](http://www.feedingamerica.org/hunger-in-america/impact-of-hunger/hunger-and-poverty/hunger-and-poverty-fact-sheet.html). Here in Texas, the rate of food insecurity is even higher - [15.4% of Texas households](https://www.feedingtexas.org/learn/food-insecurity/) experience food insecurity. This is why wasted food is such a big problem. People are still hungry.
 
 It doesn't need to be this way. We aren't just wasting a lot of food. We are wasting a lot of _good_ food. The Johns Hopkins Bloomberg School of Public Health's Center for a Livable Future released a study that looks at the nutritional value of the food we waste. It turns out the food we waste could feed a [healthy diet to two-thirds](http://newfoodeconomy.com/food-waste-adds-healthy-diet-two-thirds-american-population/) of Americans.
 
