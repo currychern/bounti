@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image, TextInput, Dimensions, Button, Alert } from 'react-native';
 import { Entypo, Octicons, Ionicons, FontAwesome } from '@expo/vector-icons';
+import Footer from './App/Components/Footer';
+import Header from './App/Components/Header';
+
 
 class SearchButton extends Component {
   render() {
@@ -33,31 +36,6 @@ export default class App extends Component {
   }
 }
 
-class Header extends Component {
-  render() {
-    return (
-      <View style={{width: null, height: 25, backgroundColor: '#00bd8a'}} />
-    );
-  }
-}
-
-class Footer extends Component {
-  render() {
-    return (
-      <View style={{width: null, height: 50, backgroundColor: '#00bd8a', flexDirection: 'row', justifyContent: 'center',}}>
-        <Entypo
-          style={{flex: 1, paddingLeft: 50, paddingTop: 5}}
-          name="bowl" size={35} color="white" onPress={onButtonPress} />
-        <Octicons
-          style={{flex: 1, paddingTop: 5}}
-          name="gift" size={40} color="white" onPress={onButtonPress} />
-        <Ionicons
-          style={{flex: 1, paddingTop: 5}}
-          name="md-more" size={40} color="white" onPress={onButtonPress} />
-      </View>
-    );
-  }
-}
 
 class BackgroundImage extends Component {
   render() {
@@ -83,7 +61,7 @@ class SearchBar extends Component {
       <TextInput
         style={styles.search}
         onChangeText={(text) => this.setState({text})}
-        placeholder='What are you looking for?'
+        placeholder='TEST'
         placeholderTextColor = '#757575'
         value={this.state.text}
       />
