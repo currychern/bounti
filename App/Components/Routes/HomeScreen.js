@@ -33,12 +33,12 @@ class SearchButton extends Component {
         return (
             <FontAwesome
                 style={{width: 40, height: 40, backgroundColor: '#ef7049', paddingLeft: 9, paddingTop: 7}}
-                name="search" size={25} color="#fdf1ed" onPress={this._goToListView} />
+                name="search" size={25} color="#fdf1ed" onPress={this._goToList} />
         );
     }
 
-    _goToListView = () => {
-      this.props.navigator.push('listView');
+    _goToList = () => {
+      this.props.navigator.push('list');
     }
 }
 
