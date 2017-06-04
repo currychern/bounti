@@ -3,7 +3,7 @@ import { View, Alert } from 'react-native';
 import { Entypo, Octicons, Ionicons } from '@expo/vector-icons';
 
 const onButtonPress = () => {
-  Alert.alert('Button has been pressed!');
+  Alert.alert('Pressed!');
 };
 
 class Footer extends Component {

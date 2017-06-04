@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Expo from 'expo';
 import {
+    StatusBar,
     StyleSheet,
     Dimensions,
     TextInput,
@@ -11,28 +11,20 @@ import {
 import { Entypo, Octicons, Ionicons, FontAwesome } from '@expo/vector-icons';
 import Footer from '../Footer';
 import Header from '../Header';
+import { withNavigation } from '@expo/ex-navigation';
 
-async function logIn() {
-    const { type, token } = await Expo.Facebook.logInWithReadPermissionsAsync('306563733133333', {
-        permissions: ['public_profile', 'email', 'user_friends'],
-    });
-    if (type === 'success') {
-        // Get the user's name using Facebook's Graph API
-        const response = await fetch(`https://graph.facebook.com/me?access_token=${token}`);
-        Alert.alert(
-            'Logged in!',
-            `Hi ${(await response.json()).name}!`,
-        );
-    }
-}
-
+@withNavigation
 class SearchButton extends Component {
     render() {
         return (
             <FontAwesome
                 style={{width: 40, height: 40, backgroundColor: '#ef7049', paddingLeft: 9, paddingTop: 7}}
-                name="search" size={25} color="#fdf1ed" onPress={logIn} />
+                name="search" size={25} color="#fdf1ed" onPress={this._goToList} />
         );
+    }
+
+    _goToList = () => {
+      this.props.navigator.push('list');
     }
 }
 
@@ -69,11 +61,11 @@ class BackgroundImage extends Component {
 }
 
 export default class HomeScreen extends Component {
-    static route = {
-        navigationBar: {
-            title: 'Home',
-        }
-    }
+    // static route = {
+    //     navigationBar: {
+    //         title: 'Home',
+    //     }
+    // }
 
     render() {
         return (
@@ -90,9 +82,6 @@ export default class HomeScreen extends Component {
         )
     }
 
-    // <View style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
-    // <Text onPress={this._handlePress}>HomeScreen!</Text>
-    // </View>
     _handlePress = () => {
         this.props.navigator.push('home');
     }
