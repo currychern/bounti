@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View, Image, Button, Alert } from 'react-native';
 import Expo from 'expo';
+import AccountScreen from './App/Components/Routes/AccountScreen';
 import HomeScreen from './App/Components/Routes/HomeScreen';
 import List from './App/Components/Routes/List';
 import Item from './App/Components/Routes/Item';
@@ -12,21 +13,17 @@ import {
 } from '@expo/ex-navigation';
 
 const Router = createRouter(() => ({
+    account: () => AccountScreen,
     home: () => HomeScreen,
     list: () => List,
     item: () => Item,
 }));
 
-// const onButtonPress = () => {
-//     // Expo.Facebook.logInWithReadPermissionsAsync(306563733133333, {['public_profile', 'email', 'user_friends'], 'web'})
-//     Alert.alert('Button has been pressed!');
-// };
-
 export default class App extends Component {
     render() {
         return (
             <NavigationProvider router={Router}>
-                <StackNavigation initialRoute="home" />
+                <StackNavigation initialRoute="account" />
             </NavigationProvider>
         );
     }
