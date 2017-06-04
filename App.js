@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Text, View, Image, Button, Alert } from 'react-native';
 import Expo from 'expo';
 import HomeScreen from './App/Components/Routes/HomeScreen';
+import ListView from './App/Components/Routes/ListView';
 
 import {
     createRouter,
@@ -11,6 +12,7 @@ import {
 
 const Router = createRouter(() => ({
     home: () => HomeScreen,
+    listView: () => ListView,
 }));
 
 // const onButtonPress = () => {

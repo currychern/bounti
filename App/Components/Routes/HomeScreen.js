@@ -11,6 +11,7 @@ import {
 import { Entypo, Octicons, Ionicons, FontAwesome } from '@expo/vector-icons';
 import Footer from '../Footer';
 import Header from '../Header';
+import { withNavigation } from '@expo/ex-navigation';
 
 async function logIn() {
     const { type, token } = await Expo.Facebook.logInWithReadPermissionsAsync('306563733133333', {
@@ -26,13 +27,18 @@ async function logIn() {
     }
 }
 
+@withNavigation
 class SearchButton extends Component {
     render() {
         return (
             <FontAwesome
                 style={{width: 40, height: 40, backgroundColor: '#ef7049', paddingLeft: 9, paddingTop: 7}}
-                name="search" size={25} color="#fdf1ed" onPress={logIn} />
+                name="search" size={25} color="#fdf1ed" onPress={this._goToListView} />
         );
+    }
+
+    _goToListView = () => {
+      this.props.navigator.push('listView');
     }
 }
 
