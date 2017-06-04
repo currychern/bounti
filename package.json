@@ -19,10 +19,15 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@expo/ex-navigation": "2.11.2",
     "@expo/vector-icons": "^5.0.0",
     "expo": "^16.0.0",
+    "firebase": "^4.1.1",
     "react": "16.0.0-alpha.6",
-    "react-native": "^0.43.4",
-    "react-router-native": "^4.1.1"
+    "react-native": "^0.43.0",
+    "react-native-firebase": "^1.1.0",
+    "react-redux": "^5.0.5",
+    "react-router-native": "^4.1.1",
+    "redux": "^3.6.0"
   }
 }
