@@ -1,19 +1,23 @@
-import * as firebase from 'firebase';
+import * as Firebase from 'firebase';
 
-const config = {
-    ADD FIREBASE CREDENTIALS HERE
-  };
-firebase.initializeApp(config);
+Firebase.initializeApp({
+    apiKey: "AIzaSyCOCFZ2r77E190SxpC0F2aqy6JygcE1xpQ",
+    authDomain: "bounti-5f992.firebaseapp.com",
+    databaseURL: "https://bounti-5f992.firebaseio.com",
+    projectId: "bounti-5f992",
+    storageBucket: "bounti-5f992.appspot.com",
+    messagingSenderId: "894037078076"
+});
 
-const db = firebase.database();
+export const db = Firebase.database();
 
-/* 
+/*
 When user is authenticated, need to add `if (user != null)` in front of all functions to make sure auth
 
 Search is basic nested SQL callback hell for now. ElasticSearch integration is available in Firebase.
  */
 
-const searchListings = searchTerm => {
+export const searchListings = searchTerm => {
   db.ref('listings').orderByChild('food').equalTo(searchTerm.toLowercase()).once('value').then((snapshot) => {
     if (snapshot.exists()) {
       console.log(snapshot.val());
@@ -29,13 +33,13 @@ const searchListings = searchTerm => {
   });
 }
 
-const getListing = listingId => {
+export const getListing = listingId => {
   db.ref(`/listings/${listingId}`).once('value').then((snapshot) => {
     console.log(snapshot.val());
   });
 }
 
-const addListing = (type, category, food, quantity, expiration, location) => {
+export const addListing = (type, category, food, quantity, expiration, location) => {
   db.ref('listings/').push({
     type: type.toLowercase(),
     category: category.toLowercase(),
@@ -46,7 +50,7 @@ const addListing = (type, category, food, quantity, expiration, location) => {
   });
 }
 
-const updateListing = (listingId, listingProperty, listingPropertyValue) => {
+export const updateListing = (listingId, listingProperty, listingPropertyValue) => {
   db.ref(`/listings/${listingId}`).set({
     type: type.toLowercase(),
     category: category.toLowercase(),
@@ -62,4 +66,4 @@ const updateListing = (listingId, listingProperty, listingPropertyValue) => {
 //getListing('-KlkioJ-lQyKpfqGxPSG');
 //searchListings('prepared');
 
-module.exports = API;
+// module.exports = API;

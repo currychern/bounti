@@ -14,15 +14,7 @@ import {
 import { Entypo, Octicons, Ionicons, FontAwesome } from '@expo/vector-icons';
 import { withNavigation } from '@expo/ex-navigation';
 import * as Firebase from 'firebase';
-
-Firebase.initializeApp({
-    apiKey: "AIzaSyCOCFZ2r77E190SxpC0F2aqy6JygcE1xpQ",
-    authDomain: "bounti-5f992.firebaseapp.com",
-    databaseURL: "https://bounti-5f992.firebaseio.com",
-    projectId: "bounti-5f992",
-    storageBucket: "bounti-5f992.appspot.com",
-    messagingSenderId: "894037078076"
-});
+import { db } from '../../Helpers/API';
 
 class BackgroundImage extends Component {
     render() {
@@ -37,6 +29,7 @@ class BackgroundImage extends Component {
     }
 }
 
+@withNavigation
 class FacebookLogin extends Component {
     render() {
         return (
@@ -51,7 +44,8 @@ class FacebookLogin extends Component {
     _authenticate = (token) => {
         const provider = Firebase.auth.FacebookAuthProvider;
         const credential = provider.credential(token);
-        return Firebase.auth().signInWithCredential(credential);
+        Firebase.auth().signInWithCredential(credential);
+        this._goToList();
     }
 
     _fbLogin = async () => {
@@ -70,6 +64,10 @@ class FacebookLogin extends Component {
             console.log(await response.json());
             this._authenticate(token);
         }
+    }
+
+    _goToList = () => {
+      this.props.navigator.push('list');
     }
 
 }
