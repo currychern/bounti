@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Expo from 'expo';
 import {
+    StatusBar,
     StyleSheet,
     Dimensions,
     TextInput,
@@ -12,20 +12,6 @@ import { Entypo, Octicons, Ionicons, FontAwesome } from '@expo/vector-icons';
 import Footer from '../Footer';
 import Header from '../Header';
 import { withNavigation } from '@expo/ex-navigation';
-
-async function logIn() {
-    const { type, token } = await Expo.Facebook.logInWithReadPermissionsAsync('306563733133333', {
-        permissions: ['public_profile', 'email', 'user_friends'],
-    });
-    if (type === 'success') {
-        // Get the user's name using Facebook's Graph API
-        const response = await fetch(`https://graph.facebook.com/me?access_token=${token}`);
-        Alert.alert(
-            'Logged in!',
-            `Hi ${(await response.json()).name}!`,
-        );
-    }
-}
 
 @withNavigation
 class SearchButton extends Component {
@@ -75,11 +61,11 @@ class BackgroundImage extends Component {
 }
 
 export default class HomeScreen extends Component {
-    static route = {
-        navigationBar: {
-            title: 'Home',
-        }
-    }
+    // static route = {
+    //     navigationBar: {
+    //         title: 'Home',
+    //     }
+    // }
 
     render() {
         return (
@@ -96,9 +82,6 @@ export default class HomeScreen extends Component {
         )
     }
 
-    // <View style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
-    // <Text onPress={this._handlePress}>HomeScreen!</Text>
-    // </View>
     _handlePress = () => {
         this.props.navigator.push('home');
     }
