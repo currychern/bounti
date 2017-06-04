@@ -76,3 +76,6 @@ A: Yes, I can be present all weekend.
 > Q: What U.N Global Goal does this fall under?
 
 A: 12) Responsible Production and Consumption
+
+## Technical Notes
+- react-native-firebase is not currently used, it works currently by routing expo's login to get the token to pass to firebase manually
