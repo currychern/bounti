@@ -4,6 +4,7 @@ import Expo from 'expo';
 import AccountScreen from './App/Components/Routes/AccountScreen';
 import HomeScreen from './App/Components/Routes/HomeScreen';
 import List from './App/Components/Routes/List';
+import Item from './App/Components/Routes/Item';
 
 import {
     createRouter,
@@ -15,6 +16,7 @@ const Router = createRouter(() => ({
     account: () => AccountScreen,
     home: () => HomeScreen,
     list: () => List,
+    item: () => Item,
 }));
 
 export default class App extends Component {

@@ -8,18 +8,15 @@ import {
     View,
     Image,
     ScrollView,
-    TouchableOpacity,
-    Alert
 } from 'react-native';
 import { Entypo, Octicons, Ionicons, FontAwesome } from '@expo/vector-icons';
 import Footer from '../Footer';
 import Header from '../Header';
-import { withNavigation } from '@expo/ex-navigation';
 
 class SearchBar extends Component {
     constructor(props) {
         super(props);
-        this.state = { text: 'Organic' };
+        this.state = { text: 'Success!!' };
     }
 
     render() {
@@ -35,22 +32,18 @@ class SearchBar extends Component {
     }
 }
 
-@withNavigation
 class Listing extends Component {
     render() {
         return (
           <View>
-            <TouchableOpacity
-                onPress={this._goToItem}>
-              <Image source={require('../../../img/fresh-carrots.jpg')}
-                  style={styles.listing}>
-                  <View style={styles.tagContainer}>
-                      {this.props.children}
-                      <Text style={styles.tag}>free </Text>
-                      <Text />
-                  </View>
-              </Image>
-            </TouchableOpacity>
+            <Image source={require('../../../img/fresh-carrots.jpg')}
+                style={styles.listing}>
+                <View style={styles.tagContainer}>
+                    {this.props.children}
+                    <Text style={styles.tag}>free </Text>
+                    <Text />
+                </View>
+            </Image>
             <View style={styles.picContainer}>
                 {this.props.children}
                 <Image source={require('../../../img/smiling-woman-crop.jpg')}
@@ -58,6 +51,25 @@ class Listing extends Component {
                 </Image>
             </View>
             <View style={styles.textView}>
+              <Text>Katie</Text>
+                <View style={{flexDirection: 'row'}}>
+                  <FontAwesome
+                    style={{paddingLeft: 0, paddingTop: 0}}
+                    name="star" size={20} color="#ed6035" />
+                  <FontAwesome
+                    style={{paddingLeft: 0, paddingTop: 0}}
+                    name="star" size={20} color="#ed6035" />
+                  <FontAwesome
+                    style={{paddingLeft: 0, paddingTop: 0}}
+                    name="star" size={20} color="#ed6035" />
+                  <FontAwesome
+                    style={{paddingLeft: 0, paddingTop: 0}}
+                    name="star" size={20} color="#ed6035" />
+                  <FontAwesome
+                    style={{paddingLeft: 0, paddingTop: 0}}
+                    name="star-half-o" size={20} color="#ed6035" />
+                  <Text>42</Text>
+                </View>
               <Text style={styles.titleText}>Organic Carrots</Text>
               <Text style={styles.descriptionText}>Produce . Hyde Park (2 min away)</Text>
             </View>
@@ -65,29 +77,21 @@ class Listing extends Component {
 
         );
     }
-
-    _goToItem = () => {
-      this.props.navigator.push('item');
-    }
 }
 
-export default class List extends Component {
+export default class Item extends Component {
+  static route = {
+      navigationBar: {
+          title: 'Austin, TX (Hyde Park)',
+      }
+  }
+
     render() {
         return (
             <View style={{flex: 1, flexDirection: 'column'}}>
-              <Header />
-              <View style={styles.container}>
-                <View style={{flexDirection: 'row'}}>
-                    <SearchBar />
-                    <FontAwesome
-                      style={{paddingLeft: 10, paddingTop: 0}}
-                      name="map-marker" size={40} color="#ed6035" />
-                </View>
+              <View>
+                <Listing />
               </View>
-              <ScrollView>
-                <Listing />
-                <Listing />
-              </ScrollView>
               <Footer />
             </View>
         )
@@ -97,7 +101,7 @@ export default class List extends Component {
     // <Text onPress={this._handlePress}>HomeScreen!</Text>
     // </View>
     _handlePress = () => {
-        this.props.navigator.push('list');
+        this.props.navigator.push('item');
     }
 }
 
@@ -117,7 +121,7 @@ const styles = StyleSheet.create({
     },
     picContainer: {
         flex: 1,
-        alignItems: 'flex-end',
+        alignItems: 'center',
         justifyContent: 'center',
         zIndex: 999
     },
@@ -142,7 +146,8 @@ const styles = StyleSheet.create({
       marginRight: 30
     },
     textView: {
-      padding: 10
+      paddingTop: 50,
+      paddingHorizontal: 10
     },
     titleText: {
       fontSize: 20
