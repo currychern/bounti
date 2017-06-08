@@ -2,6 +2,8 @@
 
 :+1: :tada: First off, thanks for taking the time to contribute! :tada: :+1:
 
+Bounti is an app that allows neighbors to share surplus food in order to foster community and help end hunger and food waste.
+
 This project has received contributions from some wonderful volunteers. Our goal is to make it easy for you to jump in and help.
 
 ## What should I know before I get started?

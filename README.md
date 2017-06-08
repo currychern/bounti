@@ -7,6 +7,7 @@
 ## Contents
 
 - [Welcome!](#welcome)
+- [Project Description](#project-description)
 - [Recent News](#recent-news)
 - [Roadmap](#roadmap)
 - [Our Team](#our-team)
@@ -21,6 +22,14 @@ We're Bounti! Our team includes developers and designers. We are looking for mor
 We are interested in bringing attention to the issue of wasted food and we are excited about the potential to get everyone in the community benefiting from less waste.
 
 Thanks for coming here to learn more!
+
+## Project Description
+
+We are a team of developers and designers working to build an app that allows neighbors to share surplus food to help alleviate hunger and end food waste.
+
+Here in the United States, we waste about 40% of the food we produce. Meanwhile, 1 out of every 6 households in here in Texas suffers from food insecurity. Teenagers and college students avoid asking for food assistance due to the social stigma around hunger and poverty. We hope to engage this audience and the broader community by making a network where sharing food is not only acceptable, but encouraged. :grinning::clap:
+
+Our app complements the efforts of food recovery organizations by focusing on the food we as individuals waste everyday. We are creating a peer-to-peer network to make everyone an active stakeholder in helping solve the problem of wasted food! :yum::fork_and_knife:
 
 ## Recent News
 
