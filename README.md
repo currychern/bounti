@@ -6,7 +6,7 @@
 
 ## Contents
 
-- [Welcome!](#welcome!)
+- [Welcome!](#welcome)
 - [Recent News](#recent-news)
 - [Roadmap](#roadmap)
 - [Our Team](#our-team)
@@ -24,7 +24,7 @@ Thanks for coming here to learn more!
 
 ## Recent News
 
-Bounti was started at [ATX Hack for Change](). We got a lot done during the hackathon and are trying to continue the momentum for a MVP rollout.
+Bounti was started at [ATX Hack for Change](atxhackforchange.org). We got a lot done during the hackathon and are trying to continue the momentum for a MVP rollout.
 
 We're currently meeting in real life twice a month at [Open Austin's](https://www.open-austin.org/) Civic Hack Nights, check [Meetup](https://www.meetup.com/Open-Austin/) for upcoming hack nights.
 
@@ -32,7 +32,7 @@ We're currently meeting in real life twice a month at [Open Austin's](https://ww
 
 At this stage, we have:
 
-2. v2 designs of Bounti. See examples [here](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/mockup_hackathon_final.png) and [here](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/mockup_hackathon_final_2.png) and [here](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/mockup_hackathon_final_3.png).
+1. v2 designs of Bounti. See examples [here](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/mockup_hackathon_final.png) and [here](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/mockup_hackathon_final_2.png) and [here](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/mockup_hackathon_final_3.png).
 
 2. A prototype that still needs a fair amount of work to get to version 1.0.
 
@@ -129,6 +129,6 @@ ___
 
 ## Tools
 
-- [Slack](https://bounti-app.slack.com): Slack is messaging platform built for teams. Ask [@currychern](github.com/currychern) for access to the slack group. We hope to automate signup at some point in the future.
-- [Github](github.com/currychern/bounti): Github is a cloud-based Git repository hosting system. You're here! Hopefully not by mistake.
+- [Slack](https://bounti-app.slack.com): Slack is messaging platform built for teams. Ask [@currychern](https://github.com/currychern) for access to the slack group. We hope to automate signup at some point in the future.
+- [Github](https://github.com/currychern/bounti): Github is a cloud-based Git repository hosting system. You're here! Hopefully not by mistake.
 - [Waffle](https://waffle.io/currychern/bounti): Waffle is a ticket system for Github issues. It helps teams visualize what's going on. Unfortunately, it doesn't come with a free waffle.

@@ -1,4 +1,4 @@
-# Contributing to Budget Party
+# Contributing to Bounti
 
 :+1: :tada: First off, thanks for taking the time to contribute! :tada: :+1:
 
@@ -7,7 +7,7 @@ This project has received contributions from some wonderful volunteers. Our goal
 ## What should I know before I get started?
 
 ### Code of Conduct
-This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to info {at} open-austin {dot} org.
+This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [@currychern](https://github.com/currychern).
 
 ### README
 Our [README](README.md) is the first place you should go, if you haven't already. If you have questions about the goals or purpose of the project, we'd be happy to clarify. [Create an issue](https://github.com/currychern/bounti/issues/new) and mark it with the "question" label.
@@ -18,7 +18,7 @@ Our [roadmap](README.md/#roadmap) is written to give you an idea of the current 
 ### Communication
 We communicate in a couple different ways:
  1. Github -  You can [open an issue](https://github.com/currychern/bounti/issues/new) to start a discussion here within Github. The project leads will get an email with your message and we will do our best to respond promptly.
- 2. Slack - Ask [@currychern](github.com/currychern) for access to the [Slack group](https://bounti-app.slack.com).
+ 2. Slack - Ask [@currychern](https://github.com/currychern) for access to the [Slack group](https://bounti-app.slack.com).
  3. In Real Life - Come to an Open Austin [Civic Hack Night](https://www.meetup.com/Open-Austin/) and let's chat in person.
 
 ## How can I help?
