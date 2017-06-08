@@ -5,77 +5,130 @@
 > Bounti is an app that allows neighbors to share surplus food so it won't go to waste. We hope to foster community and help end food waste.
 
 ## Contents
-- [The Problem](#the-problem)
-- [Contact](#contact)
-- [FAQs](#faqs)
-  - [ATX Hack for Change](#atx-hack-for-change)
 
-## The Problem
+- [Welcome!](#welcome!)
+- [Recent News](#recent-news)
+- [Roadmap](#roadmap)
+- [Our Team](#our-team)
+- [Contributing](#contributing)
+  - [Design](#design)
+  - [Development](#development)
 
-[![Vox - Food Waste](http://img.youtube.com/vi/6RlxySFrkIM/0.jpg)](https://www.youtube.com/watch?v=6RlxySFrkIM)
+## Welcome!
 
-Americans waste an unbelievable amount of food. According to a 2016 [_Guardian_ report](https://www.theguardian.com/environment/2016/jul/13/us-food-waste-ugly-fruit-vegetables-perfect), roughly 50 percent of all produce in the United States is thrown away. Produce alone accounts for 60 million tons (or $160 billion) worth of wasted food.
+We're Bounti! Our team includes developers and designers. We are looking for more stakeholders in the community to be involved in the project. We are also looking for a project co-lead to help onboard new members, prioritize tasks, help with documentation, and conduct community outreach.
 
-A lot of resources go into creating food: water, land, labor, time. For it to end up in a landfill is a travesty. Within the US, discarded food is the [largest component](https://www.epa.gov/sustainable-management-food/sustainable-management-food-basics) of landfill and incinerators. This is a huge environmental problem. Wasted food is a rising source of methane, a far more powerful greenhouse gas than carbon dioxide.
+We are interested in bringing attention to the issue of wasted food and we are excited about the potential to get everyone in the community benefiting from less waste.
 
-The [2016 Food Sustainability Index](http://foodsustainability.eiu.com/us/) ranked the US third-to-last when it came to food waste (23rd out of 25) with (30-40%) of all food produced in the country going to waste - more than 20 pounds per person per month! This lost food costs about $1,600 a year for a family of four.
+Thanks for coming here to learn more!
 
-This is happening while more than [13% of Americans live in food insecure households](http://www.feedingamerica.org/hunger-in-america/impact-of-hunger/hunger-and-poverty/hunger-and-poverty-fact-sheet.html). Here in Texas, the rate of food insecurity is even higher - [15.4% of Texas households](https://www.feedingtexas.org/learn/food-insecurity/) experience food insecurity. This is why wasted food is such a big problem. People are still hungry.
+## Recent News
 
-It doesn't need to be this way. We aren't just wasting a lot of food. We are wasting a lot of _good_ food. The Johns Hopkins Bloomberg School of Public Health's Center for a Livable Future released a study that looks at the nutritional value of the food we waste. It turns out the food we waste could feed a [healthy diet to two-thirds](http://newfoodeconomy.com/food-waste-adds-healthy-diet-two-thirds-american-population/) of Americans.
+Bounti was started at [ATX Hack for Change](). We got a lot done during the hackathon and are trying to continue the momentum for a MVP rollout.
 
-It's for this reason we are starting this project to connect neighbors and allow them to share surplus food. We want our community to be more informed about wasted food and to directly benefit from reducing needless waste. We also hope to partner with local food rescue programs, homeless shelters, food kitchens, and food banks to support access to good food for the food insecure in our community. If you are interested in being involved, please [contact](#contact) us.
+We're currently meeting in real life twice a month at [Open Austin's](https://www.open-austin.org/) Civic Hack Nights, check [Meetup](https://www.meetup.com/Open-Austin/) for upcoming hack nights.
 
-## Contact
+## Roadmap
 
-__Project Lead__: Curry Chern (curry.chern@gmail.com)
+At this stage, we have:
 
-## FAQs
+2. v2 designs of Bounti. See examples [here](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/mockup_hackathon_final.png) and [here](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/mockup_hackathon_final_2.png) and [here](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/mockup_hackathon_final_3.png).
 
-### ATX Hack for Change
-> Q: How did you hear about this event?
+2. A prototype that still needs a fair amount of work to get to version 1.0.
 
-A: I heard about the event during an Open Austin Hack Night.
+We are currently working on:
 
-> Q: Short description of the project (140 characters)
+1. Implementing the v2 designs of Bounti.
+![AppMockup](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/mockup_hackathon_final.png)
 
-A: Bounti is an app that allows neighbors to share surplus food so it won't go to waste. We hope to foster community and help end food waste.
+2. Pulling data from Firebase.
 
-> Q: What is your idea? Who will it help?
+3. Creating the form submission page.
+![AppMockup](https://raw.githubusercontent.com/currychern/bounti/master/public/assets/mockup_hackathon_final_2.png)
 
-A: We are working on an app that allows neighbors to share surplus food so it won't go to waste. A user can list food items they are offering and other users can claim them. All coordination and communication can be done in app. We also want to make the app educational and give users weekly tips on ways they can reduce food waste. We'll want to collect data so we can measure the impact we're having. We're making this app open to everyone in the Austin community. We want to support access to good food for the food insecure and work with local food rescue programs, homeless shelters, food kitchens, and food banks to accomplish this goal. We also want to connect our users with local farmers, grocers, and restaurants that implement sustainable practices. Reducing wasted food will lessen the amount of waste that ends up in city landfills and associated greenhouse gas emissions. We hope that the city and all its residents will benefit from our project on some level.
+We are looking for more developers with React Native and Firebase experience and a project co-lead to help us achieve our goal.
 
-> Q: What is the current state of your idea?
+## Our Team
 
-A: We have finished scoping out the basic premise of the app, settled on design, engineering, and project management guidelines, and have started making mockups. Here's a link to a mockup we made: (https://raw.githubusercontent.com/currychern/bounti/master/public/assets/app_mockup.png). We will begin designing a prototype soon.
+- Project Lead:
+  - [Curry Chern](https://github.com/currychern)
+- Planning:
+  - Jennifer Jiang
+- Design:
+  - John Dowd
+- Development:
+  - Kristin Faner
+  - Jimmy Hsu
+  - Aunteek Naser
+  - Christina Nick
+  - Bryan Chang
+  - Shelby
+  - William
+  - John
 
-> Q: Do you have text, articles, data, code, etc.?
+## Contributing
 
-A: Our goal is to create a mobile app. We have a github repository (https://github.com/currychern/bounti) and will update it with code and other assets leading up to the hackathon. We have a brief synopsis of the problem and links to articles highlighting the problem with food waste here (https://github.com/currychern/bounti#the-problem). Did you know: with the food we waste, we could feed a healthy diet to two-thirds of Americans.
+This project has received contributions from some wonderful volunteers. We would love to add your name to the list below. Over the course of this project, we have opportunities to help with design, development, QA & testing, writing, and more. To contribute, you can:
 
-> Q: What skills do you think your project might need?
+- Report a bug or request a feature by opening a new issue.
+- Review open issues and leave a comment if you'd like to help or if you need more information.
 
-A: We are looking for developers and UI/UX designers to help us with feature development. But we also want to find people who are passionate about sustainable consumption and preventing wasted food.
+For more information, check out [CONTRIBUTING.md](/CONTRIBUTING.md)
 
-> Q: Will the project need maintenance after the event?
+### Additional Contributors
+- [Bryan Chang](https://github.com/gitbchang) - React Native
 
-A: Yes, we plan on continuing the project after the event. I will continue working on maintenance and feature development, but would love to find others willing to work on the project long term.
+### Design
 
-> Q: Have you attended any of our pre-hack workshops?
+Here is a link to our [design assets and documentation](./design). Here are [open issues labeled "Design"](https://github.com/currychern/bounti/issues?q=is%3Aissue%20is%3Aopen%20label%3Adesign) where you can discuss, provide feedback or volunteer to help.
 
-A: Yes, I attended the workshop on Hackathon Tech + Tools.
+### Development
 
-> Q: Who are you? What gets you up in the morning?
+The Bounti app is primarily written in javascript and uses the [React Native](https://facebook.github.io/react-native/) library. We have future plans to implement [Redux](http://redux.js.org/). Data submitted to the server lives in [Firebase](https://www.firebase.com/), a Google cloud service.
 
-A: I am an engineer who is excited by new challenges and motivated by making a positive impact in the local community. I am interested in sustainable practices in the production and consumption of food and have been learning as much about the problem as I can: from volunteering at a local farm to helping a food recovery organization to growing my own food in a community garden plot.
+**Getting started**
 
-> Q: Can you be present Friday June 2nd - Sunday June 4
+This project has a dependency on Node and npm. Make sure they are install on your machine by running the following commands:
+`node -v`
+`npm -v`
 
-A: Yes, I can be present all weekend.
+This should return the version number of your install.
+If it doesn't Google how to install Node & npm for your operating system.
+_Maybe these links could help you?_
+- [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04)
+- [Mac](https://nodesource.com/blog/installing-nodejs-tutorial-mac-os-x/)
 
-> Q: What U.N Global Goal does this fall under?
+We recommend using the yarn package manager to install the project. You can check if it is on your machine by running: `yarn -v`
 
-A: 12) Responsible Production and Consumption
+You can run the following command to install yarn:
 
-## Technical Notes
-- react-native-firebase is not currently used, it works currently by routing expo's login to get the token to pass to firebase manually
+`npm install -g yarn`
+
+Once you have cloned this repo to you local machine, open the `bounti` directory in your Terminal.
+
+`cd bounti`
+
+### Installation
+
+1. `yarn install`
+
+### Using Expo
+
+The project uses [Expo](https://expo.io/), which enables you to view the app directly on your phone instead of an emulator.
+
+1. Download the Expo App on your phone.
+
+2. Make sure your phone and your machine are connected to the same local network. (An easy way to do this is to open a mobile hotspot and connect your computer to your phone's network).
+
+### Starting the App
+
+1. `npm start`
+
+2. scan the QR code using the Expo app OR if you are using an emulator [follow these directions](https://docs.expo.io/versions/v17.0.0/introduction/installation.html)
+___
+
+## Tools
+
+- [Slack](https://bounti-app.slack.com): Slack is messaging platform built for teams. Ask [@currychern](github.com/currychern) for access to the slack group. We hope to automate signup at some point in the future.
+- [Github](github.com/currychern/bounti): Github is a cloud-based Git repository hosting system. You're here! Hopefully not by mistake.
+- [Waffle](https://waffle.io/currychern/bounti): Waffle is a ticket system for Github issues. It helps teams visualize what's going on. Unfortunately, it doesn't come with a free waffle.
