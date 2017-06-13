@@ -36,7 +36,7 @@ class Listing extends Component {
         </View>
         <View style={styles.textView}>
 
-          <Text style={styles.title}>Organic Carrots</Text>
+          <Text style={styles.title}>{this.props.title}</Text>
           <Text style={styles.description}>I have some leftover carrots from my garden and I'm happy to share! :) They're super sweet and tasty!</Text>
 
           <Text style={styles.title}>Pickup Details</Text>
@@ -54,7 +54,7 @@ export default class Item extends Component {
       <View style={styles.container}>
         <Header />
         <ScrollView>
-          <Listing />
+          <Listing title="Organic Carrots"/>
         </ScrollView>
         <Footer />
       </View>

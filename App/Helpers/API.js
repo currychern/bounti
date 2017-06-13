@@ -18,11 +18,11 @@ Search is basic nested SQL callback hell for now. ElasticSearch integration is a
  */
 
 export const searchListings = searchTerm => {
-  db.ref('listings').orderByChild('food').equalTo(searchTerm.toLowercase()).once('value').then((snapshot) => {
+  db.ref('listings').orderByChild('food').equalTo(searchTerm.toLowerCase()).once('value').then((snapshot) => {
     if (snapshot.exists()) {
       console.log(snapshot.val());
     } else {
-      db.ref('listings').orderByChild('category').equalTo(searchTerm.toLowercase()).once('value').then((snapshot) => {
+      db.ref('listings').orderByChild('category').equalTo(searchTerm.toLowerCase()).once('value').then((snapshot) => {
         if (snapshot.exists()) {
           console.log(snapshot.val());
         } else {
@@ -41,22 +41,22 @@ export const getListing = listingId => {
 
 export const addListing = (type, category, food, quantity, expiration, location) => {
   db.ref('listings/').push({
-    type: type.toLowercase(),
-    category: category.toLowercase(),
-    food: food.toLowercase(),
+    type: type.toLowerCase(),
+    category: category.toLowerCase(),
+    food: food.toLowerCase(),
     quantity: quantity,
-    expiration: expiration.toLowercase(),
+    expiration: expiration.toLowerCase(),
     location: location
   });
 }
 
 export const updateListing = (listingId, listingProperty, listingPropertyValue) => {
   db.ref(`/listings/${listingId}`).set({
-    type: type.toLowercase(),
-    category: category.toLowercase(),
-    food: food.toLowercase(),
+    type: type.toLowerCase(),
+    category: category.toLowerCase(),
+    food: food.toLowerCase(),
     quantity: quantity,
-    expiration: expiration.toLowercase(),
+    expiration: expiration.toLowerCase(),
     location: location
   });
 }
@@ -66,4 +66,4 @@ export const updateListing = (listingId, listingProperty, listingPropertyValue) 
 //getListing('-KlkioJ-lQyKpfqGxPSG');
 //searchListings('prepared');
 
-// module.exports = API;
+//module.exports = API;

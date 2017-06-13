@@ -11,8 +11,6 @@ import {
 } from 'react-native';
 import { Entypo, Octicons, Ionicons, FontAwesome } from '@expo/vector-icons';
 import { withNavigation } from '@expo/ex-navigation';
-import * as Firebase from 'firebase';
-import { db } from '../../Helpers/API';
 
 class BackgroundImage extends Component {
   render() {
