@@ -39,6 +39,16 @@ export const getListing = listingId => {
   });
 }
 
+export const getAllListings = () => new Promise((resolve, reject) => {
+  db.ref('/listings/').once('value').then((snapshot) => {
+    if (snapshot.exists()) {
+      resolve(snapshot.val());
+    } else {
+      reject(Error('No results from database.'));
+    }
+  });
+});
+
 export const addListing = (type, category, food, quantity, expiration, location) => {
   db.ref('listings/').push({
     type: type.toLowerCase(),

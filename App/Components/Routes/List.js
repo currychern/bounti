@@ -12,9 +12,14 @@ import {
 import Footer from '../Footer';
 import Header from '../Header';
 import { withNavigation } from '@expo/ex-navigation';
+import * as API from '../../Helpers/API.js';
 
 @withNavigation
 class Listing extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <TouchableOpacity onPress={this._goToItem}>
@@ -29,8 +34,8 @@ class Listing extends Component {
                    source={require('../../../img/smiling-woman-crop.jpg')} />
           </View>
           <View style={styles.textView}>
-            <Text style={styles.type}>Produce</Text>
-            <Text style={styles.title}>Organic Carrots</Text>
+            <Text style={styles.type}>{this.props.type}</Text>
+            <Text style={styles.title}>{this.props.title}</Text>
             <View style={styles.horizontalText}>
               <Text style={styles.time}>3-6 PM</Text>
               <Text style={styles.distance}>0.5 mi</Text>
@@ -47,17 +52,34 @@ class Listing extends Component {
 }
 
 export default class List extends Component {
+  state = {
+    listings: []
+  }
+
+  componentWillMount() {
+    API.getAllListings().then(response => {
+      if (response) {
+        let newArr = [];
+        Object.keys(response).map((key, index) => newArr.push(response[key]));
+        this.setState({ listings: newArr });
+      } else {
+        console.log('no response from database');
+      }
+    })
+  }
+
   render() {
     return (
         <View style={styles.container}>
           <Header />
           <ScrollView>
-            <Listing />
-            <Listing />
-            <Listing />
-            <Listing />
-            <Listing />
-            <Listing />
+            {this.state.listings.map((listing, index) => 
+              <Listing 
+                key={index}
+                type={listing.type}
+                title={listing.food}
+              />
+            )}
           </ScrollView>
           <Footer />
         </View>
